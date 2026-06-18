@@ -1,4 +1,5 @@
 :root{
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
   --red:#ed1c24; --yellow:#ffd51d; --blue:#0b8fd3; --green:#18b957; --orange:#f7941d;
   --ink:#111827; --muted:#5b6472; --cream:#fffaf0; --card:#ffffff;
   --shadow:0 18px 45px rgba(17,24,39,.12); --radius:24px;
