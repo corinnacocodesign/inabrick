@@ -1,24 +1,105 @@
-<!doctype html><html lang="en"><head><title>Appointments | In A Brick Play</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/style.css"><script defer src="assets/script.js"></script></head><body><div class="topbar">Appointment link ready for your booking system</div><nav class="nav"><a class="brand" href="index.html"><img src="assets/images/logo.jpg" alt="In A Brick logo">In A Brick</a><div class="navlinks"><a href="index.html">Home</a><a href="about.html">About</a><a href="programmes.html">Programmes</a><a href="roles.html">Roles</a><a class="active" href="appointments.html">Appointments</a><a href="contact.html">Contact</a></div></nav>
-<main class="section"><div class="wrap center"><h2>Make an appointment</h2><p class="lead" style="margin:auto">This page is set up for a booking system link. When you choose your platform, update one line in <strong>assets/script.js</strong>.</p><p><a class="btn" data-appointment-link href="#">Open booking calendar</a></p><div class="note" style="max-width:760px;margin:2rem auto;text-align:left"><strong>How to connect it:</strong> replace <code>https://calendly.com/YOUR-USERNAME/in-a-brick-discovery-call</code> in <code>assets/script.js</code> with your real Calendly, Google Appointment Schedule, TidyCal, Acuity or Square Appointments link.</div><form class="enquiry-form" action="mailto:inabrickplay@gmail.com" method="post" enctype="text/plain">
-  <h3>Enquiry form placeholder</h3>
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Appointments | In A Brick Play</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
+</head>
 
-  <div class="form-grid">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="email" placeholder="Your email" required>
+<body>
+  <div class="topbar">Book a session or send us an enquiry</div>
 
-    <select name="session">
-      <option>1:1 session</option>
-      <option>Small group session</option>
-      <option>School workshop</option>
-      <option>Seasonal camp</option>
-      <option>Birthday party</option>
-      <option>Other enquiry</option>
-    </select>
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.jpg" alt="In A Brick logo">
+      In A Brick
+    </a>
 
-    <input type="text" name="phone" placeholder="Phone number">
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programmes.html">Programmes</a>
+      <a href="roles.html">Roles</a>
+      <a class="active" href="appointments.html">Appointments</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
 
-    <textarea name="message" placeholder="Tell us what you are looking for"></textarea>
-  </div>
+  <main class="section">
+    <div class="wrap">
+      <div class="booking-layout">
+        <section>
+          <span class="badge">Appointments</span>
+          <h2>Make an appointment</h2>
+          <p class="lead">
+            Interested in a 1:1 session, group workshop, party package or school support?
+            Send us a few details and we’ll help you choose the right option.
+          </p>
 
-  <button class="btn" type="submit">Send enquiry</button>
-</form>
+          <div class="booking-actions">
+            <a class="btn" data-appointment-link href="#">Open booking calendar</a>
+            <a class="btn yellow" href="contact.html">Contact us</a>
+          </div>
+
+          <div class="note">
+            <strong>Booking system coming soon.</strong><br>
+            This button can connect to Calendly, Google Appointment Schedule, TidyCal,
+            Acuity or another booking system when you choose one.
+          </div>
+        </section>
+
+        <aside class="card feature-card">
+          <h3>Before booking</h3>
+          <ul class="clean">
+            <li>Child’s age or group size</li>
+            <li>Type of session you are interested in</li>
+            <li>Any communication, confidence or sensory needs</li>
+            <li>Preferred days, times or location</li>
+          </ul>
+        </aside>
+      </div>
+
+      <form class="enquiry-form" action="mailto:inabrickplay@gmail.com" method="post" enctype="text/plain">
+        <h3>Send us an enquiry</h3>
+        <p>
+          Fill in the details below and your email app will open with the enquiry ready to send.
+        </p>
+
+        <div class="form-grid">
+          <input type="text" name="Name" placeholder="Your name" required>
+          <input type="email" name="Email" placeholder="Your email" required>
+
+          <select name="Session type">
+            <option>1:1 session</option>
+            <option>Small group session</option>
+            <option>School workshop</option>
+            <option>Seasonal camp</option>
+            <option>Birthday party</option>
+            <option>Other enquiry</option>
+          </select>
+
+          <input type="text" name="Phone" placeholder="Phone number">
+
+          <textarea name="Message" placeholder="Tell us what you are looking for"></textarea>
+        </div>
+
+        <button class="btn" type="submit">Send enquiry</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div>
+        <strong>In A Brick Play</strong><br>
+        Fun, professional, inclusive brick-based learning.
+      </div>
+      <div>
+        Not affiliated with or endorsed by LEGO®.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
