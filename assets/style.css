@@ -400,3 +400,51 @@ main img{
     padding:1.4rem;
   }
 }
+.programme-highlight {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.programme-feature {
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.butterfly {
+  background: linear-gradient(135deg, #f0f8ff 0%, #fff8e8 45%, #fff3c4 100%);
+}
+
+.badge.blue {
+  color: var(--blue);
+  border-color: #bfdbfe;
+  background: #eff6ff;
+}
+
+.mini-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.5rem 0;
+}
+
+.mini-card {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.6rem 0.9rem;
+  font-weight: 900;
+  box-shadow: 0 8px 18px rgba(16,24,39,.07);
+}
+
+.sound-card {
+  border-top-color: var(--blue);
+  background: linear-gradient(180deg, #ffffff 0%, #eef8ff 100%);
+}
+
+@media(max-width:800px) {
+  .programme-feature {
+    grid-template-columns: 1fr;
+  }
+}
