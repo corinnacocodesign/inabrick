@@ -577,3 +577,21 @@ main img{
     margin-left: 0;
   }
 }
+@media (max-width:800px){
+
+.booking-actions{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-top:2rem;
+}
+
+.booking-actions .btn{
+    margin:0;
+    width:100%;
+    padding:15px 12px;
+    font-size:.95rem;
+    text-align:center;
+}
+
+}
