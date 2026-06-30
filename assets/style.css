@@ -562,3 +562,18 @@ main img{
     max-width:300px;
   }
 }
+.home-hero {
+  background: linear-gradient(135deg, #fff8e8 0%, #ffffff 45%, #eef8ff 100%);
+}
+
+.home-hero .hero-card {
+  max-width: 520px;
+  margin-left: auto;
+}
+
+@media(max-width:800px){
+  .home-hero .hero-card {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
