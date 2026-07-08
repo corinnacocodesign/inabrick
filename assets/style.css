@@ -601,3 +601,27 @@ main img{
 }
 
 }
+/* Appointment cards tidy-up */
+.appointment-card,
+.booking-card,
+.appointments .programme-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.appointment-card .btn,
+.booking-card .btn,
+.appointments .programme-card .btn {
+  margin-top: auto;
+  width: fit-content;
+}
+
+.appointment-card .btn.yellow,
+.booking-card .btn.yellow,
+.appointments .programme-card .btn.yellow {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+  box-shadow: 0 10px 22px rgba(223,31,45,.18);
+}
