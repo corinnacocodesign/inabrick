@@ -322,14 +322,6 @@ main img{
   padding:3rem 6%;
   margin-top:3rem;
 }
-
-.footer .wrap{
-  display:flex;
-  justify-content:space-between;
-  gap:2rem;
-  flex-wrap:wrap;
-}
-
 .footer a{
   color:#fff;
 }
