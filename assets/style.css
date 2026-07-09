@@ -746,3 +746,11 @@ main img{
     text-align:center;
   }
 }
+.programme-card{
+    transition:.3s ease;
+}
+
+.programme-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(16,24,39,.15);
+}
