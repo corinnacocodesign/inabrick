@@ -733,3 +733,16 @@ main img{
 }
 
 }
+.footer .footer-grid{
+  display:grid !important;
+  grid-template-columns:2fr 1fr 1.2fr !important;
+  gap:3rem;
+  padding:3.5rem 6%;
+}
+
+@media(max-width:800px){
+  .footer .footer-grid{
+    grid-template-columns:1fr !important;
+    text-align:center;
+  }
+}
